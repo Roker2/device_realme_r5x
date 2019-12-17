@@ -105,6 +105,8 @@ BOARD_USES_COMMON_BLUETOOTH_HAL := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service=27
 
 # Display
 TARGET_USES_HWC2 := true
