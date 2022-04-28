@@ -9,6 +9,10 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
 
+# ANT+
+PRODUCT_PACKAGES += \
+    com.dsi.ant@1.0.vendor
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
