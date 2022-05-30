@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_r5x.mk
+    $(LOCAL_DIR)/syberia_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_r5x-user \
-    arrow_r5x-userdebug \
-    arrow_r5x-eng
+    syberia_r5x-user \
+    syberia_r5x-userdebug \
+    syberia_r5x-eng
