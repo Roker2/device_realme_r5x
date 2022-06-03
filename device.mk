@@ -29,7 +29,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    vendor/nxp/opensource/pn5xx
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
