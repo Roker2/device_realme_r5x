@@ -44,4 +44,19 @@
    "target_path": "vendor/nxp/opensource/hidlimpl",
    "branch"     : "lineage-19.1-pn5xx"
  },
+ {
+   "repository" : "LineageOS/android_vendor_nxp_nfc",
+   "target_path": "vendor/nxp/nfc",
+   "branch"     : "lineage-19.1"
+ },
+ {
+   "repository" : "LineageOS/android_vendor_nxp_secure_element",
+   "target_path": "vendor/nxp/secure_element",
+   "branch"     : "lineage-19.1"
+ },
+ {
+   "repository" : "LineageOS/android_vendor_nxp_secure_element_extns",
+   "target_path": "vendor/nxp/secure_element_extns",
+   "branch"     : "lineage-19.1"
+ }
 ]
