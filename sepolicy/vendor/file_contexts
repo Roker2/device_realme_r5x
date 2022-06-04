@@ -59,3 +59,7 @@
 /vendor/bin/hw/android\.hardware\.health@2\.0-service\.oppo		u:object_r:hal_health_default_exec:s0
 
 /sys/devices/platform/soc/4744000.sdhci/mmc_host/mmc0/mmc0:0001/serial				u:object_r:sysfs_vendor_rmt_storage:s0
+
+# NFC
+/dev/p73                  u:object_r:nfc_device:s0
+/dev/pn553                u:object_r:nfc_device:s0
