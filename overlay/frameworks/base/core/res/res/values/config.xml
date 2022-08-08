@@ -456,4 +456,10 @@
            <item>0</item> <!-- COLOR_MODE_NATURAL -->
            <item>1</item> <!-- COLOR_MODE_BOOSTED -->
                             </integer-array>
+
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">false</bool>
+
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">false</bool>
 </resources>
