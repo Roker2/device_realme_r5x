@@ -20,3 +20,4 @@ allow init adsprpcd_file:file { mounton };
 allow init vfat:dir { search };
 
 r_dir_file(init, proc_oppo_fp);
+allow init proc_oppoversion:file { read open getattr };
