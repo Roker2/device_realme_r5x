@@ -16,11 +16,11 @@
 -->
 <resources>
     <!-- Device specific settings -->
-    <string name="device_settings_app_name">realme Dirac</string>
+    <string name="device_settings_app_name">Dirac</string>
 
     <!-- Dirac settings -->
     <string name="dirac_enable">Enable dirac</string>
-    <string name="dirac_title">realme Dirac Sound Enhancer</string>
+    <string name="dirac_title">Dirac Sound Enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
     <string name="dirac_headset_title">Choose headphones type</string>
     <string name="dirac_preset_title">Choose a preset</string>
@@ -68,5 +68,5 @@
     <string name="dirac_preset_soft_treble">Soft Treble</string>
     
     <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">realme Dirac</string>
+    <string name="dirac_qs_tile_title">Dirac</string>
 </resources>
