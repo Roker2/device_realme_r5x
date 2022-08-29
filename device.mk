@@ -408,7 +408,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml
 
 # RealmeDirac
-$(call inherit-product, $(LOCAL_PATH)/app/RealmeDirac/dirac.mk)
+$(call inherit-product, $(LOCAL_PATH)/RealmeDirac/dirac.mk)
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
