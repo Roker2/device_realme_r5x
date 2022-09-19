@@ -15,9 +15,9 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := Realme
+PRODUCT_BRAND := realme
 PRODUCT_DEVICE := r5x
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_MANUFACTURER := realme
 PRODUCT_NAME := bootleg_r5x
 PRODUCT_MODEL := Realme 5 Series
 
