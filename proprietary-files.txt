@@ -70,6 +70,10 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libasphere.so
 
+# Audio (SoundFX) - from RMX2050_11.C.10 qssi-user-RKQ1.200903.002
+vendor/lib/soundfx/libshoebox.so
+vendor/lib64/soundfx/libshoebox.so
+
 # Audio ACDB
 vendor/etc/acdbdata/19631/adsp_avs_config.acdb
 vendor/etc/acdbdata/19631/Bluetooth_cal.acdb
