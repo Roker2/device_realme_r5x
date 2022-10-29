@@ -229,6 +229,10 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
 
+# Gallery
+PRODUCT_PACKAGES += \
+    GalleryGo
+
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss.visibility_control@1.0.vendor \
