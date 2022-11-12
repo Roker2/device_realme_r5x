@@ -90,3 +90,16 @@ on property:init.svc.vendor.charger=running
     write /sys/devices/system/cpu/cpu5/online 0
     write /sys/devices/system/cpu/cpu6/online 0
     write /sys/devices/system/cpu/cpu7/online 0
+
+    # Force Fast Charge
+    chmod 777 /sys/class/power_supply/*/*
+    write /sys/kernel/fast_charge/force_fast_charge 1
+    write /sys/class/power_supply/battery/input_current_limited 0
+    write /sys/class/power_supply/usb/current_max 3000000
+    write /sys/class/power_supply/usb/hw_current_max 3000000
+    write /sys/class/power_supply/usb/pd_current_max 3000000
+    write /sys/class/power_supply/usb/ctm_current_max 3000000
+    write /sys/class/power_supply/main/current_max 3000000
+    write /sys/class/power_supply/main/constant_charge_current_max 3000000
+    write /sys/class/power_supply/battery/constant_charge_current_max 3000000
+    write /sys/class/power_supply/pc_port/current_max 3000000
