@@ -642,10 +642,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RealmeDirac
 
-# Remove Unwanted Packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Cgroup and Task_profiles
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
