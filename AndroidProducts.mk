@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_r5x.mk
+    $(LOCAL_DIR)/bootleg_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_r5x-user \
-    awaken_r5x-userdebug \
-    awaken_r5x-eng
+    bootleg_r5x-user \
+    bootleg_r5x-userdebug \
+    bootleg_r5x-eng
