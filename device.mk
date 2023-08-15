@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@5.0-impl \
     android.hardware.soundtrigger@2.1-impl \
     android.hardware.audio.service \
-    audio.primary.trinket \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -38,7 +37,6 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libcomprcapture \
     libexthwplugin \
-    libhdmipassthru \
     libspkrprot
 
 PRODUCT_COPY_FILES += \
