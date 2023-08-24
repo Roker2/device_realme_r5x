@@ -2039,6 +2039,8 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libwvhidl.so
 
 # DSP - from RMX2050_11.C.10 qssi-user-RKQ1.200903.002
+system_ext/lib/vendor.qti.hardware.dsp@1.0.so|0509fb69d377dcbeb14a9443236589e6dbdc5256
+system_ext/lib64/vendor.qti.hardware.dsp@1.0.so|3ff362aace13f5d90806f2f5709f1695c7dc4e01
 vendor/bin/dspservice|00dcd6e79d32426b15ed2148bf3c05082c400c9e
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|b5075bcf4e885b01b25e7ecb3fdcf022977353ba
