@@ -164,6 +164,9 @@ ODM_MANIFEST_NFC_ESE_FILES := $(DEVICE_PATH)/configs/manifests/manifest_nfc_ese.
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+
 # Media
 TARGET_DISABLED_UBWC := true
 
