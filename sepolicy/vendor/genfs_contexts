@@ -55,3 +55,6 @@ genfscon proc /devinfo        u:object_r:proc_devinfo:s0
 # Flash
 genfscon proc /qcom_flash         u:object_r:proc_flash:s0
 genfscon proc /qcom_flash1        u:object_r:proc_flash:s0
+
+# Lineage Health
+genfscon sysfs /class/power_supply/battery/mmi_charging_enable  u:object_r:sysfs_usb_supply:s0
