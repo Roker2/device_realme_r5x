@@ -368,7 +368,8 @@ PRODUCT_PACKAGES += \
     FrameworksOverlayR5x \
     TetheringOverlayR5x \
     BluetoothOverlayR5x \
-    ApertureOverlayR5x
+    ApertureOverlayR5x \
+    LineageOverlayR5x
 
 # Power
 PRODUCT_PACKAGES += \

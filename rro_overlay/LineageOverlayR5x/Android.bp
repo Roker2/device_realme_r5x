@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "LineageOverlayR5x",
+    theme: "LineageOverlayR5x",
+    sdk_version: "current",
+    vendor: true,
+}
