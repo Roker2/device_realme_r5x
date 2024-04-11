@@ -219,7 +219,6 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.qcom_ramdisk \
     fstab.qcom \
     init.class_main.sh \
     init.oppo.fingerprints.sh \
@@ -230,7 +229,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     set_baseband.sh \
     init.oppo.fingerprints.rc \
-    init.oppo.product.rc \
     init.oppo.reserve.rc \
     init.msm.usb.configfs.rc \
     init.qcom.rc \
