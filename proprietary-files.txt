@@ -1,4 +1,4 @@
-# Device proprietary files - from RMX1911EX_11_C.67, unless pinned
+# Device proprietary files - from RMX1911EX_11_C.83, unless pinned
 
 # ADSP - from LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
@@ -2715,7 +2715,7 @@ vendor/etc/sensors/config/tsl2540.json
 vendor/etc/sensors/sns_reg_config
 
 # Soter
--vendor/app/SoterService/SoterService.apk
+system/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
@@ -2751,9 +2751,7 @@ vendor/firmware/tp/19631/nt_hlt_fw.bin
 vendor/firmware/tp/19631/nt_hlt_fw_mp.bin
 vendor/firmware/tp/19631/nt_hlt_fw_signed.bin
 vendor/firmware/tp/19743/RA170A1.bin
-vendor/firmware/tp/19743/RA170A1.conf
 vendor/firmware/tp/19743/RA170X1.bin
-vendor/firmware/tp/19743/RA170X1.conf
 vendor/firmware/tp/19743/ilitek_fw_inx_signed.bin
 vendor/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin
 vendor/firmware/tp/19743/nt_hlt_fw.bin
