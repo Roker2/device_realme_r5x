@@ -1,5 +1,0 @@
-device/realme/
-vendor/realme/
-kernel/realme/
-hardware/qcom-caf/sm8150/display
-packages/apps/ViPER4AndroidFX
